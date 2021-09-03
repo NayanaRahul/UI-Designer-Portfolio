@@ -12,7 +12,7 @@ $(document).ready(function() {
     let searchParams = new URLSearchParams(url.search);
     if (searchParams.get('u') == 'contact') {
         $('html,body').animate({
-                scrollTop: $("#contact_form").offset().top + 1000
+                scrollTop: $("#contact_form").offset().top - 5
             },
             'slow');
     }
