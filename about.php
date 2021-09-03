@@ -69,7 +69,7 @@
                             <p class="fs_36 lh_46 text-center">Eleanor Pena</p>
                             <p class="fs_24 lh_36 text_grey text-center">UX Designer</p>
                         </div>
-                        <div class="user2 wow fadeInUpBig" data-wow-delay="0.45s">
+                        <div class="user2 wow fadeInDownBig" data-wow-delay="0.45s">
                             <div><img class="image_fit" src="images/user2.png"></div>
                             <p class="fs_36 lh_46 text-center">Jane Cooper</p>
                             <p class="fs_24 lh_36 text_grey text-center">Front End Developer</p>
