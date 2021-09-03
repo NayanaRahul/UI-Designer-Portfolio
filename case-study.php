@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <title>Case Study</title>
-</head>
-
-<body>
+<?php include 'header.php'; ?>
     <div class="container mt_20">
         <div class="row">
             <div class="col-sm-12 col-lg-12 col-md-12" style="width: unset;overflow:hidden;">
@@ -76,11 +57,11 @@
                     <div class="container">
                         <div class="fs_36 lh_46">Latest Case Study</div>
                         <div class="case_study projects mt_20 flexbox_container">
-                            <div class="project_1 mt_20">
+                            <div class="project_1 mt_20 wow slideInRight" data-wow-delay="0.25s">
                                 <div class="project_image"><img src="images/project_webdesign.png" class="image_fit"></div>
                                 <h3 class="mt_20 text_overflow font-weight-bold">Minify - Web Design</h3>
                             </div>
-                            <div class="project_2 mt_20">
+                            <div class="project_2 mt_20 wow slideInRight" data-wow-delay="0.45s">
                                 <div class="project_image"><img src="images/project_ant.png" class="image_fit"></div>
                                 <h3 class="mt_20 text_overflow font-weight-bold">Ant - Personal Portfolio</h3>
                             </div>
