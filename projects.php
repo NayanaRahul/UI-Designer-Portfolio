@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+<title>Projects</title>
 <div class="container mt_20">
     <div class="row">
         <div class="col-sm-12 col-lg-12 col-md-12" style="width: unset;overflow:hidden;">
@@ -36,57 +37,57 @@
                         <div id="web_design" class="tab-pane fade in active">
                             <div class="projects mt_20 flexbox_container">
                                 <div class="project_1 mt_20 wow slideInRight" data-wow-delay="0.25s">
-                                    <div class="project_image"><img src="images/project_webdesign.png" class="image_fit"></div>
+                                    <div class="project_image"><img src="assets/images/project_webdesign.png" class="image_fit"></div>
                                     <h3 class="mt_20 text_overflow">Minify - Web Design</h3>
                                     <div class="flexbox_container wrapper-sm">
                                         <div class="study_case flexbox_container mr-5">
-                                            <img src="svg/layers.svg" alt="">
+                                            <img src="assets/vectors/layers.svg" alt="">
                                             <h4 class="ml_10 text_overflow">View Study Case</h4>
                                         </div>
                                         <div class="preview flexbox_container">
-                                            <img src="svg/show.svg" alt="">
+                                            <img src="assets/vectors/show.svg" alt="">
                                             <h4 class="ml_10 text_overflow">Live Preview</h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="project_2 mt_20 wow slideInRight" data-wow-delay="0.45s">
-                                    <div class="project_image"><img src="images/project_ant.png" class="image_fit"></div>
+                                    <div class="project_image"><img src="assets/images/project_ant.png" class="image_fit"></div>
                                     <h3 class="mt_20 text_overflow">Ant - Personal Portfolio</h3>
                                     <div class="flexbox_container wrapper-sm">
                                         <div class="study_case flexbox_container mr-5">
-                                            <img src="svg/layers.svg" alt="">
+                                            <img src="assets/vectors/layers.svg" alt="">
                                             <h4 class="ml_10 text_overflow"><a href="case-study.php">View Study Case</a></h4>
                                         </div>
                                         <div class="preview flexbox_container ">
-                                            <img src="svg/show.svg" alt="">
+                                            <img src="assets/vectors/show.svg" alt="">
                                             <h4 class="ml_10 text_overflow">Live Preview</h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="project_1 mt_75 sm wow slideInRight" data-wow-delay="0.25s">
-                                    <div class="project_image"><img src="images/project_lumy.png" class="image_fit"></div>
+                                    <div class="project_image"><img src="assets/images/project_lumy.png" class="image_fit"></div>
                                     <h3 class="mt_20 text_overflow">Lumy - Dashboard UI Kit</h3>
                                     <div class="flexbox_container wrapper-sm">
                                         <div class="study_case flexbox_container mr-5">
-                                            <img src="svg/layers.svg" alt="">
+                                            <img src="assets/vectors/layers.svg" alt="">
                                             <h4 class="ml_10 text_overflow">View Study Case</h4>
                                         </div>
                                         <div class="preview flexbox_container">
-                                            <img src="svg/show.svg" alt="">
+                                            <img src="assets/vectors/show.svg" alt="">
                                             <h4 class="ml_10 text_overflow">Live Preview</h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="project_2 mt_75 sm wow slideInRight" data-wow-delay="0.45s">
-                                    <div class="project_image"><img src="images/project_keeper.png" class="image_fit"></div>
+                                    <div class="project_image"><img src="assets/images/project_keeper.png" class="image_fit"></div>
                                     <h3 class="mt_20 text_overflow">Keeper - Soccer Site</h3>
                                     <div class="flexbox_container wrapper-sm">
                                         <div class="study_case flexbox_container mr-5">
-                                            <img src="svg/layers.svg" alt="">
+                                            <img src="assets/vectors/layers.svg" alt="">
                                             <h4 class="ml_10 text_overflow">View Study Case</h4>
                                         </div>
                                         <div class="preview flexbox_container">
-                                            <img src="svg/show.svg" alt="">
+                                            <img src="assets/vectors/show.svg" alt="">
                                             <h4 class="ml_10 text_overflow">Live Preview</h4>
                                         </div>
                                     </div>
@@ -109,7 +110,7 @@
                     <div class="width_100">Interested working with me?</div>
                     <div class="btn_container width_100">
                         <div>
-                            <div class="btn_normal flexbox_container"><img src="svg/mail_black.svg"><span class="fs_24 lh_36">Email Me</span></div>
+                            <div class="btn_normal flexbox_container"><img src="assets/vectors/mail_black.svg"><span class="fs_24 lh_36">Email Me</span></div>
                         </div>
                     </div>
                 </div>
@@ -120,17 +121,17 @@
                     <div class="fs_36 lh_46">Let's Connect</div>
                     <div class="social_icons">
                         <div class="wow fadeInUp" data-wow-delay="0.25s">
-                            <img src="svg/instagram.svg ">
+                            <img src="assets/vectors/instagram.svg ">
                         </div>
                         <div class="wow fadeInDown" data-wow-delay="0.25s">
-                            <img src="svg/youtube.svg ">
+                            <img src="assets/vectors/youtube.svg ">
                         </div>
                         <div class="wow fadeInUp" data-wow-delay="0.25s">
-                            <img src="svg/dribbble.svg ">
+                            <img src="assets/vectors/dribbble.svg ">
                         </div>
                     </div>
                     <div class="flexbox_container backtotop">
-                        <p class="fs_36 lh_46">Back to Top</p><img src="svg/short_up.svg" class="ml_10">
+                        <p class="fs_36 lh_46">Back to Top</p><img src="assets/vectors/short_up.svg" class="ml_10">
                     </div>
                 </div>
             </div>

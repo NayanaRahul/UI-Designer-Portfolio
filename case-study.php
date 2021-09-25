@@ -38,31 +38,31 @@
                     </div>
                     <div class="container">
                         <div class="article_container pt-5 pb-5">
-                            <div><img src="images/new_interface.png" class="image_fit"></div>
+                            <div><img src="assets/images/new_interface.png" class="image_fit"></div>
                             <div class="fs_36 font-weight-bold lh_62 mt_20">About Project</div>
                             <p class="fs_18 lh_46">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo id auctor arcu, vitae, eget quis pellentesque vel. Facilisis enim nunc sem venenatis. Ornare ultrices tellus tempor ante tellus. Leo turpis proin semper eros,
                                 quis est pharetra, diam. Risus diam, iaculis pretium, tortor, lacus. Sed et, sit donec condimentum. Varius elit nunc facilisis sem pretium leo massa cras. Diam erat congue lorem vivamus vivamus dolor dictum tortor. Lacus
                                 integer fusce et eget eu consequat. Id eu faucibus nunc nec hendrerit rutrum. Dignissim aliquet neque vehicula nunc, aliquam, felis suspendisse. Tellus nunc volutpat in a consectetur sem volutpat. Purus arcu non lobortis
                                 sit morbi penatibus..</p>
-                            <div class="mt_75 sm"><img src="images/old_interface.png" class="image_fit"></div>
+                            <div class="mt_75 sm"><img src="assets/images/old_interface.png" class="image_fit"></div>
                             <div class="fs_36 font-weight-bold lh_62 mt_20">Process</div>
                             <div class="fs_24 lh_36">Gathering Requirement</div>
                             <p class="fs_18 lh_46"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo id auctor arcu, vitae, eget quis pellentesque vel. Facilisis enim nunc sem venenatis. Ornare ultrices tellus tempor ante tellus. Leo turpis proin semper eros,
                                 quis est pharetra, diam. Risus diam, iaculis pretium, tortor, lacus. Sed et, sit donec condimentum.</p>
                             <div class="fs_24 lh_36 mt_20">The Problem</div>
                             <p class="fs_18 lh_46">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo id auctor arcu, vitae, eget quis pellentesque vel. Facilisis enim nunc sem venenatis.</p>
-                            <div class="mt_75 sm"><img src="images/final_inteface.png" class="image_fit"></div>
+                            <div class="mt_75 sm"><img src="assets/images/final_inteface.png" class="image_fit"></div>
                         </div>
                     </div>
                     <div class="container">
                         <div class="fs_36 lh_46">Latest Case Study</div>
                         <div class="case_study projects mt_20 flexbox_container">
                             <div class="project_1 mt_20 wow slideInRight" data-wow-delay="0.25s">
-                                <div class="project_image"><img src="images/project_webdesign.png" class="image_fit"></div>
+                                <div class="project_image"><img src="assets/images/project_webdesign.png" class="image_fit"></div>
                                 <h3 class="mt_20 text_overflow font-weight-bold">Minify - Web Design</h3>
                             </div>
                             <div class="project_2 mt_20 wow slideInRight" data-wow-delay="0.45s">
-                                <div class="project_image"><img src="images/project_ant.png" class="image_fit"></div>
+                                <div class="project_image"><img src="assets/images/project_ant.png" class="image_fit"></div>
                                 <h3 class="mt_20 text_overflow font-weight-bold">Ant - Personal Portfolio</h3>
                             </div>
                         </div>
@@ -74,17 +74,17 @@
                         <div class="fs_36 lh_46">Let's Connect</div>
                         <div class="social_icons">
                             <div class="wow fadeInUp" data-wow-delay="0.25s">
-                                <img src="svg/instagram.svg ">
+                                <img src="assets/vectors/instagram.svg ">
                             </div>
                             <div class="wow fadeInDown" data-wow-delay="0.25s">
-                                <img src="svg/youtube.svg ">
+                                <img src="assets/vectors/youtube.svg ">
                             </div>
                             <div class="wow fadeInUp" data-wow-delay="0.25s">
-                                <img src="svg/dribbble.svg ">
+                                <img src="assets/vectors/dribbble.svg ">
                             </div>
                         </div>
                         <div class="flexbox_container backtotop">
-                            <p class="fs_36 lh_46">Back to Top</p><img src="svg/short_up.svg" class="ml_10">
+                            <p class="fs_36 lh_46">Back to Top</p><img src="assets/vectors/short_up.svg" class="ml_10">
                         </div>
                     </div>
                 </div>

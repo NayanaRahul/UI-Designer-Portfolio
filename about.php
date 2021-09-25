@@ -26,20 +26,20 @@
                 <div class="container  mt_75 sm">
                     <div class="flexbox_container description_container">
                         <div>
-                            <img class="image_fit" src="images/home_image_2.png">
+                            <img class="image_fit" src="assets/images/home_image_2.png">
                         </div>
                         <div class="short_description" style="margin-left:10%;">
                             <p class="div_title"><b>Ariene Rey</b></p>
                             <p class="fs_18">an UI/UX Designer.</p>
                             <p class="fs_18 mt_20">UX Designer based in Jakarta, Indonesia.<br> I am designing with a minimal and beautiful design in mind.</p>
                             <p class="fs_18 mt_20 mb-5">Email Me : <b>ariene.rey@gmail.com</b></p>
-                            <div class="mt_20 mb-5"><img src="images/signature.png"></div>
+                            <div class="mt_20 mb-5"><img src="assets/images/signature.png"></div>
                             <p class="fs_18 mt_20 mb-4"><b>Tools & Skills</b></p>
                             <div class="flexbox_container justify-content-between">
-                                <div class="wow slideInRight" data-wow-delay="0.25s"><img src="images/AdobeIllustrator.png" class="image_fit"></div>
-                                <div class="wow slideInRight" data-wow-delay="0.45s"><img src="images/AdobePhotoshop.png" class="image_fit"></div>
-                                <div class="wow slideInRight" data-wow-delay="0.65s"><img src="images/Figma.png" class="image_fit"></div>
-                                <div class="wow slideInRight" data-wow-delay="0.85s"><img src="images/AdobeXd.png" class="image_fit"></div>
+                                <div class="wow slideInRight" data-wow-delay="0.25s"><img src="assets/images/AdobeIllustrator.png" class="image_fit"></div>
+                                <div class="wow slideInRight" data-wow-delay="0.45s"><img src="assets/images/AdobePhotoshop.png" class="image_fit"></div>
+                                <div class="wow slideInRight" data-wow-delay="0.65s"><img src="assets/images/Figma.png" class="image_fit"></div>
+                                <div class="wow slideInRight" data-wow-delay="0.85s"><img src="assets/images/AdobeXd.png" class="image_fit"></div>
                             </div>
                         </div>
                     </div>
@@ -51,12 +51,12 @@
                     <p class="fs_18 lh_46">My most recent work stint was with Sprinklr where I designed for some of its core offerings like Social Media Engagement, Social Advertising, Care support and Analytics for big brands with a global reach that helped integrate all
                         their social marketing needs under one roof. Having led the design team for four years in this young, rapidly growing enterprise startup environment - taught me how to balance business goals and engineering constraints as I
                         unrelentingly advocated for the user.</p>
-                    <div class="mt_20 mb-5"><img src="images/about_image_1.png" class="image_fit"></div>
+                    <div class="mt_20 mb-5"><img src="assets/images/about_image_1.png" class="image_fit"></div>
                     <p class="fs_18 lh_46 mt_20 mb-5">
                         I graduated from Symbiosis Institute of Design, India with a degree in User Experience Design. I loved the human-centered design methods and processes I learned in school and applied them to my thesis project with Microsoft R&D, Hyderabad.<br><br> I grew up in 7 different states in India and my ability to quickly adjust to new challenges in life comes from that. Owing to my diverse upbringing, I embrace all cultures and try to bring it to the designs I create. I am a
                         movie buff and there’s nothing like relaxing to a good masala Bollywood movie. Food is my second love and I let my nose guide me to the pleasures of the stomach once every weekend.
                     </p>
-                    <div class="mt_20 mb-5"><img class="image_fit" src="images/work_video.png"></div>
+                    <div class="mt_20 mb-5"><img class="image_fit" src="assets/images/work_video.png"></div>
                 </div>
             </div>
             <!-- OUR TEAM -->
@@ -65,17 +65,17 @@
                     <div class="div_title text-center mb-5">Our Team</div>
                     <div class="team_users flexbox_container justify-content-between">
                         <div class="user1 wow fadeInDownBig" data-wow-delay="0.25s">
-                            <div><img class="image_fit" src="images/user1.png"></div>
+                            <div><img class="image_fit" src="assets/images/user1.png"></div>
                             <p class="fs_36 lh_46 text-center">Eleanor Pena</p>
                             <p class="fs_24 lh_36 text_grey text-center">UX Designer</p>
                         </div>
                         <div class="user2 wow fadeInDownBig" data-wow-delay="0.45s">
-                            <div><img class="image_fit" src="images/user2.png"></div>
+                            <div><img class="image_fit" src="assets/images/user2.png"></div>
                             <p class="fs_36 lh_46 text-center">Jane Cooper</p>
                             <p class="fs_24 lh_36 text_grey text-center">Front End Developer</p>
                         </div>
                         <div class="user3 wow fadeInDownBig" data-wow-delay="0.65s">
-                            <div><img class="image_fit" src="images/user3.png"></div>
+                            <div><img class="image_fit" src="assets/images/user3.png"></div>
                             <p class="fs_36 lh_46 text-center">Cody Fisher</p>
                             <p class="fs_24 lh_36 text_grey text-center">Back End Developer</p>
                         </div>
@@ -85,7 +85,7 @@
             <!-- SUGGESTION FORM -->
             <div class="mt_75 sm">
                 <div class="suggestion_form flexbox_container justify-content-between" id="contact_form">
-                    <div class="mask"><img src="images/Mask.png" class="image_fit"></div>
+                    <div class="mask"><img src="assets/images/Mask.png" class="image_fit"></div>
                     <div class="form">
                         <div class="div_title text-white mb-5">We’d Love To Hear From You</div>
                         <form>
@@ -109,17 +109,17 @@
                     <div class="fs_36 lh_46">Let's Connect</div>
                     <div class="social_icons">
                         <div class="wow fadeInUp" data-wow-delay="0.25s">
-                            <img src="svg/instagram.svg ">
+                            <img src="assets/vectors/instagram.svg ">
                         </div>
                         <div class="wow fadeInDown" data-wow-delay="0.25s">
-                            <img src="svg/youtube.svg ">
+                            <img src="assets/vectors/youtube.svg ">
                         </div>
                         <div class="wow fadeInUp" data-wow-delay="0.25s">
-                            <img src="svg/dribbble.svg ">
+                            <img src="assets/vectors/dribbble.svg ">
                         </div>
                     </div>
                     <div class="flexbox_container backtotop">
-                        <p class="fs_36 lh_46">Back to Top</p><img src="svg/short_up.svg" class="ml_10">
+                        <p class="fs_36 lh_46">Back to Top</p><img src="assets/vectors/short_up.svg" class="ml_10">
                     </div>
                 </div>
             </div>
