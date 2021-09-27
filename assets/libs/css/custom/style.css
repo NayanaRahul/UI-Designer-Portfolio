@@ -125,7 +125,7 @@ body a:active {
 }
 
 /* image to fit to container */
-.image_fit, .header .image_container img, .content_2 .projects .project_image img, .content_3 .card-image img, .content_5 img, .content_6 .profile .profile_image img {
+.image_fit, .header .image_container #img_1, .content_2 .projects .project_image img, .content_3 .card-image img, .content_5 img, .content_6 .profile .profile_image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -167,6 +167,24 @@ body a:active {
 .home_menu li a:hover {
   background-color: transparent !important;
   color: var(--yellow);
+}
+
+.header .image_container {
+  position: relative;
+  margin-right: 17px;
+}
+
+.header .image_container #img_1 {
+  position: relative;
+}
+
+.header .image_container #img_2 {
+  border-radius: 50%;
+  position: absolute;
+  top: 6%;
+  left: 7%;
+  width: 95%;
+  height: 95%;
 }
 
 .header .social_icons {
@@ -404,7 +422,7 @@ body a:active {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   .width_100, .content_6 .border_curved, .suggestion_form .mask,
   .suggestion_form .form {
     width: 100% !important;

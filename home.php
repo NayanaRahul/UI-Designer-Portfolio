@@ -26,7 +26,7 @@
                 <div class="container  mt_20">
                     <div class="row">
                         <!-- LEFT , ABOUT -->
-                        <div class="col-sm-5">
+                        <div class="col-lg-6">
                             <div class="textbox_container wow slideInLeft" data-wow-delay="0.75s">
                                 <div class="text_grey" style="font-size: 24px;line-height: 36px;">Hey!</div>
                                 <h1 class="div_title">I'm <span class="text_yellow">Ariene Ray</span>.<br>an UI/UX Designer.</h1>
@@ -54,11 +54,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-1"></div>
+                        <!-- <div class="col-lg-1"></div> -->
                         <!-- RIGHT , IMAGE -->
-                        <div class="col-sm-6 ">
-                            <div class="image_container ">
-                                <img src="assets/images/home_image.png" class="wow fadeInDown" data-wow-duration="3s" data-wow-delay="0.45s">
+                        <div class=" col-lg-6">           
+                            <div class="image_container">
+                                <img src="assets/images/img_bg_1.png" id="img_1">
+                                <img src="assets/images/home_image.jpg" id="img_2" class="wow fadeInDown" data-wow-duration="3s" data-wow-delay="0.45s">
                             </div>
                         </div>
                     </div>
