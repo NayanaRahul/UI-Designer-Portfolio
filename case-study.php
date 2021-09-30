@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+<title>Case Study</title>
     <div class="container mt_20">
         <div class="row">
             <div class="col-sm-12 col-lg-12 col-md-12" style="width: unset;overflow:hidden;">
@@ -38,31 +39,46 @@
                     </div>
                     <div class="container">
                         <div class="article_container pt-5 pb-5">
-                            <div><img src="assets/images/new_interface.png" class="image_fit"></div>
+                            <div>
+                                <figure>
+                                    <img src="assets/images/new_interface.jpg" class="image_fit br_30">
+                                    <figcaption class="text-center font-italic mt_10 fs_16">New Interface</figcaption>
+                                </figure>
+                            </div>
                             <div class="fs_36 font-weight-bold lh_62 mt_20">About Project</div>
                             <p class="fs_18 lh_46">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo id auctor arcu, vitae, eget quis pellentesque vel. Facilisis enim nunc sem venenatis. Ornare ultrices tellus tempor ante tellus. Leo turpis proin semper eros,
                                 quis est pharetra, diam. Risus diam, iaculis pretium, tortor, lacus. Sed et, sit donec condimentum. Varius elit nunc facilisis sem pretium leo massa cras. Diam erat congue lorem vivamus vivamus dolor dictum tortor. Lacus
                                 integer fusce et eget eu consequat. Id eu faucibus nunc nec hendrerit rutrum. Dignissim aliquet neque vehicula nunc, aliquam, felis suspendisse. Tellus nunc volutpat in a consectetur sem volutpat. Purus arcu non lobortis
                                 sit morbi penatibus..</p>
-                            <div class="mt_75 sm"><img src="assets/images/old_interface.png" class="image_fit"></div>
+                            <div class="mt_75 sm">
+                                <figure>
+                                    <img src="assets/images/old_interface.jpg" class="image_fit br_30">
+                                    <figcaption class="text-center font-italic mt_10 fs_16">Old Interface</figcaption>
+                                </figure>
+                            </div>
                             <div class="fs_36 font-weight-bold lh_62 mt_20">Process</div>
                             <div class="fs_24 lh_36">Gathering Requirement</div>
                             <p class="fs_18 lh_46"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo id auctor arcu, vitae, eget quis pellentesque vel. Facilisis enim nunc sem venenatis. Ornare ultrices tellus tempor ante tellus. Leo turpis proin semper eros,
                                 quis est pharetra, diam. Risus diam, iaculis pretium, tortor, lacus. Sed et, sit donec condimentum.</p>
                             <div class="fs_24 lh_36 mt_20">The Problem</div>
                             <p class="fs_18 lh_46">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo id auctor arcu, vitae, eget quis pellentesque vel. Facilisis enim nunc sem venenatis.</p>
-                            <div class="mt_75 sm"><img src="assets/images/final_inteface.png" class="image_fit"></div>
+                            <div class="mt_75 sm">
+                            <figure>
+                                    <img src="assets/images/final_interface.jpg" class="image_fit br_30">
+                                    <figcaption class="text-center font-italic mt_10 fs_16">Final</figcaption>
+                                </figure>
+                            </div>
                         </div>
                     </div>
                     <div class="container">
                         <div class="fs_36 lh_46">Latest Case Study</div>
                         <div class="case_study projects mt_20 flexbox_container">
                             <div class="project_1 mt_20 wow slideInRight" data-wow-delay="0.25s">
-                                <div class="project_image"><img src="assets/images/project_webdesign.png" class="image_fit"></div>
+                                <div class="project_image"><img src="assets/images/project_webdesign.jpg" class="image_fit br_30"></div>
                                 <h3 class="mt_20 text_overflow font-weight-bold">Minify - Web Design</h3>
                             </div>
                             <div class="project_2 mt_20 wow slideInRight" data-wow-delay="0.45s">
-                                <div class="project_image"><img src="assets/images/project_ant.png" class="image_fit"></div>
+                                <div class="project_image"><img src="assets/images/project_ant.jpg" class="image_fit br_30"></div>
                                 <h3 class="mt_20 text_overflow font-weight-bold">Ant - Personal Portfolio</h3>
                             </div>
                         </div>

@@ -32,7 +32,7 @@
                                 <h1 class="div_title">I'm <span class="text_yellow">Ariene Ray</span>.<br>an UI/UX Designer.</h1>
                                 <div><img src="assets/images/Line_Vector.png" alt=""></div>
                                 <h4 style="font-size: 18px;line-height: 30px;">UX Designer based in Jakarta, Indonesia.<br> I am designing with a minimal and beautiful design<br>in mind.</h4>
-                                <div class="social_icons width_100">
+                                <div class="social_icons width_sm_100">
                                     <div class="text_grey" style="font-size: 18px;line-height: 30px;">Follow Me</div>
                                     <div class="wow fadeInDown" data-wow-delay='1.5s'>
                                         <img src="assets/vectors/instagram.svg ">
@@ -45,7 +45,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="btn_container width_100 wow slideInRight" data-wow-delay="1.5s">
+                            <div class="btn_container width_sm_100 wow slideInRight" data-wow-delay="1.5s">
                                 <div>
                                     <div class="btn_normal flexbox_container"><img src="assets/vectors/mail_white.svg"><span>Mail Me</span></div>
                                 </div>
@@ -54,7 +54,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-1"></div> -->
                         <!-- RIGHT , IMAGE -->
                         <div class=" col-lg-6">           
                             <div class="image_container">
@@ -68,8 +67,10 @@
             <!-- CONTENT 1 MORE DETAILS-->
             <div class="container mt_75 sm">
                 <div class="content_1 flexbox_container justify-content-between">
-                    <div class="image_container width_100 wow fadeInLeftBig" data-wow-delay="0.65s"></div>
-                    <div class="content_1_right flexbox_container width_100">
+                    <div class="image_container width_sm_100 wow fadeInLeftBig" data-wow-delay="0.65s">
+                        <img src="assets/images/home_image_2.jpg"> 
+                    </div>
+                    <div class="content_1_right flexbox_container width_sm_100">
                         <div class="flexbox_container projects_reviews wow fadeInLeftBig" data-wow-delay="0.45s">
                             <div class="completed_projects">
                                 <div class="flexbox_container large_text">
@@ -100,13 +101,13 @@
                         <div>
                             <h1 class="text_sm">Recent Projects</h1>
                         </div>
-                        <a href="projects.html">
+                        <a href="projects.php">
                             <div class="btn_normal">View More</div>
                         </a>
                     </div>
                     <div class="projects mt_20 flexbox_container justify-content-between">
-                        <div class="project_1 wow slideInLeft" data-wow-delay="0.75s">
-                            <div class="project_image" ><img src="assets/images/project1.png" class="image_fit"></div>
+                        <div class="project_1 wow slideInLeft width_47 width_sm_100" data-wow-delay="0.75s">
+                            <div class="project_image" ><img src="assets/images/project_webdesign.jpg" class="image_fit br_30"></div>
                             <h3 class="mt_20">UI Portofolio</h3>
                             <div class="flexbox_container">
                                 <div class="study_case flexbox_container ">
@@ -119,8 +120,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="project_2 wow slideInLeft" data-wow-delay="0.95s">
-                            <div class="project_image" ><img src="assets/images/project2.png" class="image_fit"></div>
+                        <div class="project_2 width_47 width_sm_100 wow slideInLeft" data-wow-delay="0.95s">
+                            <div class="project_image" ><img src="assets/images/project_ant.jpg" class="image_fit br_30"></div>
                             <h3 class="mt_20">UI Portofolio</h3>
                             <div class="flexbox_container">
                                 <div class="study_case flexbox_container">
@@ -147,7 +148,7 @@
                         <!-- CARD 1 -->
                         <div class="card">
                             <div class="card-body text-center reason1 wow fadeInDownBig" data-wow-delay="0.25s">
-                                <div class="card-image"><img src="assets/images/reason1.png"></div>
+                                <div class="card-image"><img src="assets/images/reason1.jpg"></div>
                                 <div class="mt_20">
                                     <h3>Communicative</h3>
                                     <p class="fs_18 lh_30 text_grey card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
@@ -157,7 +158,7 @@
                         <!-- CARD 2 -->
                         <div class="card">
                             <div class="card-body text-center reason2 wow fadeInUpBig" data-wow-delay="0.35s">
-                                <div class="card-image"><img src="assets/images/reason2.png"></div>
+                                <div class="card-image"><img src="assets/images/reason2.jpg"></div>
                                 <div class="mt_20">
                                     <h3>Professional</h3>
                                     <p class="fs_18 lh_30 text_grey card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
@@ -167,7 +168,7 @@
                         <!-- CARD 3 -->
                         <div class="card">
                             <div class="card-body text-center reason3 wow fadeInDownBig" data-wow-delay="0.25s">
-                                <div class="card-image"><img src="assets/images/reason3.png"></div>
+                                <div class="card-image"><img src="assets/images/reason3.jpg"></div>
                                 <div class="mt_20">
                                     <h3>Collaborative</h3>
                                     <p class="fs_18 lh_30 text_grey card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
@@ -177,7 +178,7 @@
                         <!-- CARD 4 -->
                         <div class="card">
                             <div class="card-body text-center reason3 wow fadeInUpBig" data-wow-delay="0.35s">
-                                <div class="card-image"><img src="assets/images/reason4.png"></div>
+                                <div class="card-image"><img src="assets/images/reason4.jpg"></div>
                                 <div class="mt_20">
                                     <h3>Client's Favourite</h3>
                                     <p class="fs_18 lh_30 text_grey card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
@@ -190,8 +191,8 @@
             <!-- CONTENT 4 CONTACT, PROJECT DETAILS-->
             <div class="container mt_75 sm">
                 <div class="content_4 flexbox_container div_title">
-                    <div class="width_100" style="width:30%">Interested working with me?</div>
-                    <div class="btn_container width_100">
+                    <div class="width_sm_100" style="width:30%">Interested working with me?</div>
+                    <div class="btn_container width_sm_100">
                         <div>
                             <div class="btn_normal flexbox_container wow pulse" data-wow-delay="0.25s">
                                 <img src="assets/vectors/mail_black.svg">
@@ -227,9 +228,9 @@
                                     <!-- TESTIMONIAL 1 -->
                                     <div class="testimonial1 border_curved fs_24 lh_36 ">
                                         <p class="mb_20">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
-                                        <div class="profile flexbox_container">
+                                        <div class="profile flexbox_container justify_between">
                                             <div class="flexbox_container">
-                                                <div class="profile_image"><img src="assets/images/profile1.png"></div>
+                                                <div class="profile_image"><img src="assets/images/profile1.jpg"></div>
                                                 <div class="ml_10 profile_details">
                                                     <p class="fs_16 lh_24 mb-0">Ronald Richards</p>
                                                     <p class="fs_14 lh_24 text_grey mb-0">UI/UX Designer</p>
@@ -244,9 +245,9 @@
                                     <!-- TESTIMONIAL 2 -->
                                     <div class="testimonial2 border_curved fs_24 lh_36">
                                         <p class="mb_20 ">It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
-                                        <div class="profile flexbox_container">
+                                        <div class="profile flexbox_container justify_between">
                                             <div class="flexbox_container">
-                                                <div><img src="assets/images/profile2.png"></div>
+                                                <div class="profile_image"><img src="assets/images/profile2.jpg"></div>
                                                 <div class="ml_10">
                                                     <p class="fs_16 lh_24 mb-0">Ronald Richards</p>
                                                     <p class="fs_14 lh_24 text_grey mb-0">UI/UX Designer</p>
@@ -266,9 +267,9 @@
                                     <!-- TESTIMONIAL 1 -->
                                     <div class="testimonial1 border_curved fs_24 lh_36 ">
                                         <p class="mb_20">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
-                                        <div class="profile flexbox_container">
+                                        <div class="profile flexbox_container justify_between">
                                             <div class="flexbox_container">
-                                                <div class="profile_image"><img src="assets/images/profile1.png"></div>
+                                                <div class="profile_image"><img src="assets/images/profile1.jpg"></div>
                                                 <div class="ml_10 profile_details">
                                                     <p class="fs_16 lh_24 mb-0">Ronald Richards</p>
                                                     <p class="fs_14 lh_24 text_grey mb-0">UI/UX Designer</p>
@@ -283,9 +284,9 @@
                                     <!-- TESTIMONIAL 2 -->
                                     <div class="testimonial2 border_curved fs_24 lh_36">
                                         <p class="mb_20 ">It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
-                                        <div class="profile flexbox_container">
+                                        <div class="profile flexbox_container justify_between">
                                             <div class="flexbox_container">
-                                                <div><img src="assets/images/profile2.png"></div>
+                                                <div class="profile_image"><img src="assets/images/profile2.jpg"></div>
                                                 <div class="ml_10">
                                                     <p class="fs_16 lh_24 mb-0">Ronald Richards</p>
                                                     <p class="fs_14 lh_24 text_grey mb-0">UI/UX Designer</p>
@@ -305,9 +306,9 @@
                                     <!-- TESTIMONIAL 1 -->
                                     <div class="testimonial1 border_curved fs_24 lh_36 ">
                                         <p class="mb_20">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
-                                        <div class="profile flexbox_container">
+                                        <div class="profile flexbox_container justify_between">
                                             <div class="flexbox_container">
-                                                <div class="profile_image"><img src="assets/images/profile1.png"></div>
+                                                <div class="profile_image"><img src="assets/images/profile1.jpg"></div>
                                                 <div class="ml_10 profile_details">
                                                     <p class="fs_16 lh_24 mb-0">Ronald Richards</p>
                                                     <p class="fs_14 lh_24 text_grey mb-0">UI/UX Designer</p>
@@ -322,9 +323,9 @@
                                     <!-- TESTIMONIAL 2 -->
                                     <div class="testimonial2 border_curved fs_24 lh_36">
                                         <p class="mb_20 ">It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
-                                        <div class="profile flexbox_container">
+                                        <div class="profile flexbox_container justify_between">
                                             <div class="flexbox_container">
-                                                <div><img src="assets/images/profile2.png"></div>
+                                                <div class="profile_image"><img src="assets/images/profile2.jpg"></div>
                                                 <div class="ml_10">
                                                     <p class="fs_16 lh_24 mb-0">Ronald Richards</p>
                                                     <p class="fs_14 lh_24 text_grey mb-0">UI/UX Designer</p>
