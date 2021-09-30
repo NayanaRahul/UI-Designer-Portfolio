@@ -10,8 +10,6 @@
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="assets/libs/css/plugins/bootstrap/bootstrap-4.5.2.min.css">
     <link rel="stylesheet" href="assets/libs/css/plugins/bootstrap/bootstrap-3.4.1.min.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <!-- ANIMATION CSS -->
     <link rel="stylesheet" href="assets/libs/css/plugins/animation/animate.css">
     

@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+<title>About</title>
 <div class="container mt_20">
     <div class="row">
         <div class="col-sm-12 col-lg-12 col-md-12" style="width: unset;overflow:hidden;">            
@@ -25,8 +26,8 @@
                 <!-- DETAILS -->
                 <div class="container  mt_75 sm">
                     <div class="flexbox_container description_container">
-                        <div>
-                            <img class="image_fit" src="assets/images/home_image_2.png">
+                        <div class="image_container">
+                            <img class="image_fit br_30" src="assets/images/about_image.jpg">
                         </div>
                         <div class="short_description" style="margin-left:10%;">
                             <p class="div_title"><b>Ariene Rey</b></p>
@@ -51,12 +52,12 @@
                     <p class="fs_18 lh_46">My most recent work stint was with Sprinklr where I designed for some of its core offerings like Social Media Engagement, Social Advertising, Care support and Analytics for big brands with a global reach that helped integrate all
                         their social marketing needs under one roof. Having led the design team for four years in this young, rapidly growing enterprise startup environment - taught me how to balance business goals and engineering constraints as I
                         unrelentingly advocated for the user.</p>
-                    <div class="mt_20 mb-5"><img src="assets/images/about_image_1.png" class="image_fit"></div>
+                    <div class="mt_20 mb-5"><img src="assets/images/about_image_1.jpg" class="image_fit br_30"></div>
                     <p class="fs_18 lh_46 mt_20 mb-5">
                         I graduated from Symbiosis Institute of Design, India with a degree in User Experience Design. I loved the human-centered design methods and processes I learned in school and applied them to my thesis project with Microsoft R&D, Hyderabad.<br><br> I grew up in 7 different states in India and my ability to quickly adjust to new challenges in life comes from that. Owing to my diverse upbringing, I embrace all cultures and try to bring it to the designs I create. I am a
                         movie buff and there’s nothing like relaxing to a good masala Bollywood movie. Food is my second love and I let my nose guide me to the pleasures of the stomach once every weekend.
                     </p>
-                    <div class="mt_20 mb-5"><img class="image_fit" src="assets/images/work_video.png"></div>
+                    <div class="mt_20 mb-5"><img class="image_fit br_30" src="assets/images/work_image.jpg"></div>
                 </div>
             </div>
             <!-- OUR TEAM -->
@@ -65,17 +66,17 @@
                     <div class="div_title text-center mb-5">Our Team</div>
                     <div class="team_users flexbox_container justify-content-between">
                         <div class="user1 wow fadeInDownBig" data-wow-delay="0.25s">
-                            <div><img class="image_fit" src="assets/images/user1.png"></div>
+                            <div class="image_container"><img class="image_fit" src="assets/images/user1.jpg"></div>
                             <p class="fs_36 lh_46 text-center">Eleanor Pena</p>
                             <p class="fs_24 lh_36 text_grey text-center">UX Designer</p>
                         </div>
                         <div class="user2 wow fadeInDownBig" data-wow-delay="0.45s">
-                            <div><img class="image_fit" src="assets/images/user2.png"></div>
+                            <div class="image_container"><img class="image_fit" src="assets/images/user2.jpg"></div>
                             <p class="fs_36 lh_46 text-center">Jane Cooper</p>
                             <p class="fs_24 lh_36 text_grey text-center">Front End Developer</p>
                         </div>
                         <div class="user3 wow fadeInDownBig" data-wow-delay="0.65s">
-                            <div><img class="image_fit" src="assets/images/user3.png"></div>
+                            <div class="image_container"><img class="image_fit" src="assets/images/user3.jpg"></div>
                             <p class="fs_36 lh_46 text-center">Cody Fisher</p>
                             <p class="fs_24 lh_36 text_grey text-center">Back End Developer</p>
                         </div>
