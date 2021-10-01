@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>UI Designer Protfolio Documentation </title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/libs/css/documentation/screen.css" type="text/css">
+
+    <body>
+        <div class="container">
+            <h3 class="center alt">&ldquo;UI Designer Portfolio&rdquo; Documentation by &ldquo;Template Author&rdquo; v1.0</h3>
+
+            <hr>
+
+            <h1 class="center">&ldquo;UI Designer Portfolio&rdquo;</h1>
+
+            <div class="borderTop">
+                <div class="span-6 colborder info prepend-1">
+                    <p class="prepend-top">
+                        <strong>
+							Created: x/x/xxxx<br>
+							By: Your Name<br>
+							Email: <a href="mailto:youremail@yourdomain.com">youremail@yourdomain.com</a>
+						</strong>
+                    </p>
+                </div>
+                <!-- end div .span-6 -->
+
+                <div class="span-12 last">
+                    <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/USERNAME">here</a>. Thanks so much!</p>
+                </div>
+            </div>
+            <!-- end div .borderTop -->
+
+            <hr>
+
+            <h2 id="toc" class="alt">Table of Contents</h2>
+            <ol class="alpha">
+                <li><a href="#htmlStructure">HTML Structure</a></li>
+                <li><a href="#cssFiles">CSS Files and Structure</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+                <li><a href="#php">PHP Code Explanation</a></li>
+                <li><a href="#credits">Sources and credits</a></li>
+            </ol>
+
+            <hr>
+
+            <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+            <p>The general template structure is the same throughout the template. Here is the general structure.</p>
+
+            <img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+
+            <p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+            <pre>	.content a {
+		color: #someColor;
+	} 
+</pre>
+
+            <hr>
+
+            <h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+            <p>Custom directory (assets/libs/css/custom) is where custom styles for the theme are located.<br> If you want to add a new style definition that should be available anywhere in the theme, it can be added to the style.scss file in the custom
+                directory.
+            </p>
+            <h4>File Structure : </h4>
+            <p><pre>
+└── assets
+    ├── libs                 
+        ├── css
+            ├── custom
+                ├── style.scss  	// Base styles. Styles placed here should be available anywhere in the theme 
+                └── variables.scss	// Variables used in the custom theme
+            └── plugins 
+                ├── animation       // Reveal CSS animation as you scroll down a page.     
+                └── bootstrap            
+			</pre></p>
+
+            <p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+
+            <hr>
+
+            <h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+            <p>This theme imports some Javascript files.</p>
+
+            <ul>
+                <li>My custom script</li>
+                <li>Some plugins
+                    <ol>
+                        <li>Animation</li>
+                        <p>Most of the animation in this site is carried out from the animation scripts.This plugin is packed, so you won't need to manually edit anything in the file.
+                            <br>Reveal CSS animation as you scroll down a page.
+                            <br>Basic usage In order to hide all elements when they are supposed to be hidden. (Anti Flickering)
+                            <p>
+                                CSS :
+                                <pre>.wow { visibility: hidden; }</pre>
+                            </p>
+                            <p>
+                                HTML :
+                                <pre> &lt;section class="wow slideInLeft"&gt;&lt;/section&gt;
+                                <br> &lt;section class="wow slideInRight"&gt;&lt;/section&gt;</pre>
+                            </p>
+                            <p>
+                                JavaScript :
+                                <pre> new WOW().init();</pre>
+                            </p>
+                            <p>
+                                Advanced usage HTML :<br><pre> &lt;section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"&gt;&lt;/section&gt; &lt;section class="wow slideInRight" data-wow-offset="10" data-wow-iteration="10"&gt;&lt;/section&gt;</pre>
+                            </p>
+                            JavaScript
+                            <pre>var wow = new WOW( 
+  {
+    boxClass: 'wow', // animated element css class (default is wow) 
+    animateClass: 'animated', // animation css class (default is animated)
+    offset: 0, // distance to the element when triggering the animation (default is 0) 
+    mobile: true, // trigger animations on mobile devices (default is true) 
+    live: true, // act on asynchronously loaded content (default is true)
+    callback: function(box) { 
+        // the callback is fired every time an animation is started 
+        //the argument that is passed in is the DOM node being animated
+    }, 
+    scrollContainer: null // optional scroll container selector, otherwise use window 
+  } 
+); 
+wow.init();</pre>
+                        </p>
+                        <li>Bootstrap</li>
+                        <li>jQuery</li>
+                        <p>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</p>
+                        <li>popper</li>
+                        <p>Positioning tooltips and popovers</p>
+                    </ol>
+                </li>
+            </ul>
+
+            <h4>File Structure : </h4>
+            <p><pre>
+└── assets
+    ├── libs                 
+        ├── js
+            ├── custom 
+                └── script.js	// custom scripts
+            └── plugins 
+                ├── animation      
+                ├── bootstrap     
+                ├── jQuery   
+                └── popper        
+			</pre></p>
+            <hr>
+            <h3 id="php"><strong>D) PHP Code Explanation</strong> - <a href="#toc">top</a></h3>
+            <p>To insert header and footer in all files used PHP include statement</p>
+            Syntax
+            <pre>include 'filename'</pre>
+            <hr>
+            <h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+            <p>I've used the following images, icons or other files as listed.
+
+                <ul>
+                    <li>File name from file author</li>
+                    <li>File name from file author</li>
+                    <li>File name from file author</li>
+                    <li>File name from file author</li>
+                </ul>
+
+                <hr>
+
+                <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question
+                    relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+
+                <p class="append-bottom alt large"><strong>Your Name</strong></p>
+                <p><a href="#toc">Go To Table of Contents</a></p>
+
+                <hr class="space">
+        </div>
+        <!-- end div .container -->
+    </body>
+
+    </html>

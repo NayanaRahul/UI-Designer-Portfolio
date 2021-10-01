@@ -240,17 +240,6 @@
             margin-left: 38px;
         }
     }
-    /* .content_2 { */
-    
-    .projects {
-        .project_image {
-            height: 350px;
-            img {
-                @extend .image_fit;
-            }
-        }
-    }
-    /* } */
     
     .content_3 {
         .card {
@@ -354,6 +343,15 @@
                 img {
                     border-radius: 50%;
                 }
+            }
+        }
+    }
+    
+    .projects {
+        .project_image {
+            height: 350px;
+            img {
+                @extend .image_fit;
             }
         }
     }
@@ -586,6 +584,7 @@
         /* FOOTER */
         .footer {
             flex-wrap: wrap;
+            justify-content: center;
             .fs_36 {
                 font-size: 25px;
             }
