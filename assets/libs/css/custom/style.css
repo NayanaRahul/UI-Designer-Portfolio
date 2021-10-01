@@ -127,7 +127,7 @@ body a:active {
 }
 
 /* image to fit to container */
-.image_fit, .header .image_container #img_1, .content_1 .image_container img, .projects .project_image img, .content_3 .card-image img, .content_5 img, .content_6 .profile .profile_image img {
+.image_fit, .header .image_container #img_1, .content_1 .image_container img, .content_3 .card-image img, .content_5 img, .content_6 .profile .profile_image img, .projects .project_image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -284,12 +284,6 @@ body a:active {
   margin-left: 38px;
 }
 
-/* .content_2 { */
-.projects .project_image {
-  height: 350px;
-}
-
-/* } */
 .content_3 .card {
   background: transparent;
   border: none;
@@ -394,6 +388,10 @@ body a:active {
 
 .our_team .team_users .image_container img {
   border-radius: 50%;
+}
+
+.projects .project_image {
+  height: 350px;
 }
 
 .project_tabs .nav-tabs {
@@ -631,6 +629,9 @@ body a:active {
   .footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .footer .fs_36 {
     font-size: 25px;
