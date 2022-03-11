@@ -2,8 +2,8 @@
 ## Table of Contents
 1. [HTML Structure](#html-structure)
 2. [CSS Files and Structure](#css-files-and-structure)
-3. JavaScript
-4. PHP Code Explanation
+3. [JavaScript](#javascript)
+4. [PHP Code Explanation](php-ccode-explanation)
 
 ## HTML Structure
 The general template structure is the same throughout the template. Here is the general structure.
@@ -71,3 +71,71 @@ File Structure :
                 └── bootstrap            
 ```
 If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.
+
+## JavaScript
+This theme imports some Javascript files.
+### Custom Script
+### Plugins
+* Animation
+Most of the animation in this site is carried out from the animation scripts.This plugin is packed, so you won't need to manually edit anything in the file.
+Reveal CSS animation as you scroll down a page.
+Basic usage In order to hide all elements when they are supposed to be hidden. (Anti Flickering)
+###### CSS
+```
+.wow { visibility: hidden; }
+```
+###### HTML
+```
+<section class="wow slideInLeft"></section>
+<section class="wow slideInRight"></section>
+```
+Advanced usage
+```
+<section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"></section>
+<section class="wow slideInRight" data-wow-offset="10" data-wow-iteration="10"></section>
+```
+###### Javascript
+```
+new WOW().init();
+```
+Advanced Usage 
+```
+var wow = new WOW({
+    boxClass: 'wow', // animated element css class (default is wow) 
+    animateClass: 'animated', // animation css class (default is animated)
+    offset: 0, // distance to the element when triggering the animation (default is 0) 
+    mobile: true, // trigger animations on mobile devices (default is true) 
+    live: true, // act on asynchronously loaded content (default is true)
+    callback: function(box) { 
+        // the callback is fired every time an animation is started 
+        //the argument that is passed in is the DOM node being animated
+    }, 
+    scrollContainer: null // optional scroll container selector, otherwise use window 
+  }); 
+wow.init();
+```
+The animation is implemented using [GitHub Page](https://github.com/matthieua/WOW).
+* Bootstrap
+* jQuery
+* popper
+
+File Structure :
+```
+└── assets
+    ├── libs                 
+        ├── js
+            ├── custom 
+                └── script.js	// custom scripts
+            └── plugins 
+                ├── animation      
+                ├── bootstrap     
+                ├── jQuery   
+                └── popper  
+```
+
+## PHP Code Explanation
+To insert header and footer in all files used PHP include statement
+```
+include 'filename'
+```
+
