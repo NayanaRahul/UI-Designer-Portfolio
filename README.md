@@ -1,6 +1,10 @@
 # UI Designer Portfolio
 ## Table of Contents
-#### 1. HTML Structure
+1. [HTML Structure](#html-structure)
+2. [CSS Files and Structure](#css-files-and-structure)
+3. JavaScript
+4. PHP Code Explanation
+
 ## HTML Structure
 The general template structure is the same throughout the template. Here is the general structure.
 ```
@@ -46,4 +50,24 @@ The general template structure is the same throughout the template. Here is the 
 </div>
 <!-- END CONTAINER -->
 ```
-## 
+If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:
+```
+.content a {
+    color: #someColor;
+} 
+```
+## CSS Files and Structure
+Custom directory (assets/libs/css/custom) is where custom styles for the theme are located. If you want to add a new style definition that should be available anywhere in the theme, it can be added to the style.scss file in the custom directory.
+File Structure :
+```
+└── assets
+    ├── libs                 
+        ├── css
+            ├── custom
+                ├── style.scss  	// Base styles. Styles placed here should be available anywhere in the theme 
+                └── variables.scss	// Variables used in the custom theme
+            └── plugins 
+                ├── animation       // Reveal CSS animation as you scroll down a page.     
+                └── bootstrap            
+```
+If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.
