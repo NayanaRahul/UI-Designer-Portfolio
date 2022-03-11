@@ -1,5 +1,6 @@
 # UI Designer Portfolio
-
+## Table of Contents
+###### 1. HTML Structure
 ## HTML Structure
 The general template structure is the same throughout the template. Here is the general structure.
 ```
@@ -45,3 +46,4 @@ The general template structure is the same throughout the template. Here is the 
 </div>
 <!-- END CONTAINER -->
 ```
+## 
